@@ -9,3 +9,5 @@ export const MOVIE_LIST_API = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZjk0ZjBjYTJlMTQ2ZmE2M2VkNzRmMTI3NWJhODRkZSIsIm5iZiI6MTc5MzI5NjE5Mi4xODMsInN1YiI6IjZhZTM4NzQwNmIxNmYxYmM3OTkyYWYyOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.wZxJ6vz8XwgSn9RHxFYg6mPoWA6OFZfoXwTVYh0mZsU",
   },
 };
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
