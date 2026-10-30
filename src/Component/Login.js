@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { updateProfile } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { addUser } from "../utils/userSlice";
+import { AVATAR } from "../utils/constants";
 
 const Login = () => {
   const [isSignIn, SetisSignIn] = useState(true);
@@ -42,7 +43,7 @@ const Login = () => {
           const user = userCredential.user;
           updateProfile(user, {
             displayName: u_name.current.value,
-            photoURL: "https://avatars.githubusercontent.com/u/12824231?v=4",
+            photoURL: AVATAR,
           })
             .then(() => {
               // Profile updated!
